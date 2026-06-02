@@ -1,1 +1,23 @@
+# Module 01: Introduction & Basics of Simulink®
 
+This folder introduces the basic graphical operations, blockset layouts, and programmatic control interfaces using MATLAB scripts.
+
+## 💡 Core Teaching Concepts
+
+### 1. The Simulink Interface Evolution
+* **Contextual Toolbars:** Modern MATLAB interfaces (R2019b+) group design workflows into functional tabs: `Simulation` (execution controls), `Debug` (diagnostics), `Modeling` (block configuration), and `Format` (visual attributes).
+* **Signal Inspection:** Right-clicking any signal wire allows students to add a **Data Inspector** flag or a visual floating scope directly onto the line without changing the model's structural design.
+
+### 2. Basic Manipulation Shortcuts
+* **Block Copying:** Hold `Ctrl` and drag a block to quickly duplicate it.
+* **Block Orientation:** Select a block and press `Ctrl + R` to rotate it 90° clockwise, or `Ctrl + I` to flip/invert it horizontally.
+
+---
+
+## 🛠️ Scripted Exercises
+
+This module includes automated scripts to teach how to open models, alter signal properties, and gather data from execution scopes programmatically without manual clicking.
+
+### Included Files:
+* `basic_interface_demo.m` — Programmatically creates a basic system, routes signals, and simulates it.
+* `simple_sine_model.slx` — The target simulation canvas containing basic sources and sinks.
